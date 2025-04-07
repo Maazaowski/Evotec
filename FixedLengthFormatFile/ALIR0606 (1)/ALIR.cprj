@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\hud-etldev-01\Centerprise\Projects\ALIR\ALIR.cprj</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <_TopFolder>
+    <Name>ALIR.cprj</Name>
+    <ProjectType>Integration</ProjectType>
+    <VcAction>None</VcAction>
+    <Members>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Connections</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>ETL_Stage.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>ALIR.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>SFTP_Src_Files_Delete.sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DelimitedDest.sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Dataflow</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Input</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>0_ImportSource.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>AddVRecords.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>AddTRecords.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Output</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>1_HeaderRecord.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>2_POLR.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>3_PROP.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>4_PRP1.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>5_MISC.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>6_SUBJ.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>7_EFTR.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Source_Records.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Output_Records.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>OutPutFile.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Output_Records_Astera.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Workflow</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>SourceFile.Wfs</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Import</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR_SFTP_File.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Archive_SFTP_LocalFiles.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>DeleteSourceSFTPFiles.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>DownloadSourceFileFTP.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>SourceFileFTPRec.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>SourceFilesFTP.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Output</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>OutputFile.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR_SFTP_OutputFile.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>MainALIR.Wfs</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Config</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Dev</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>PROD</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>_7_EFTR.sact</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>UAT</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+    </Members>
+    <IsExpanded>false</IsExpanded>
+  </_TopFolder>
+  <RegressionIgnore />
+  <TopFolder>
+    <Name>ALIR.cprj</Name>
+    <ProjectType>Integration</ProjectType>
+    <VcAction>None</VcAction>
+    <Members>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Connections</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>ETL_Stage.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>ALIR.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>SFTP_Src_Files_Delete.sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DelimitedDest.sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Dataflow</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Input</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>0_ImportSource.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>AddVRecords.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>AddTRecords.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Output</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>1_HeaderRecord.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>2_POLR.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>3_PROP.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>4_PRP1.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>5_MISC.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>6_SUBJ.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>7_EFTR.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Source_Records.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Output_Records.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>OutPutFile.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>All_Output_Records_Astera.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Workflow</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>SourceFile.Wfs</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Import</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR_SFTP_File.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Archive_SFTP_LocalFiles.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>DeleteSourceSFTPFiles.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>DownloadSourceFileFTP.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>SourceFileFTPRec.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>SourceFilesFTP.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Output</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>OutputFile.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR_SFTP_OutputFile.Wfs</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>MainALIR.Wfs</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Config</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>Dev</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>PROD</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>_7_EFTR.sact</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>UAT</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>ALIR.Cfg</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+    </Members>
+    <IsExpanded>false</IsExpanded>
+  </TopFolder>
+  <RegressionProperties>
+    <BaselineDirectory>
+      <Path />
+      <UncPath />
+    </BaselineDirectory>
+    <CurrentDirectory>
+      <Path />
+      <UncPath />
+    </CurrentDirectory>
+    <ProjectPath>\\hud-etldev-01\Centerprise\Projects\ALIR</ProjectPath>
+    <IsBasic>true</IsBasic>
+  </RegressionProperties>
+  <OpenFiles />
+</Project>

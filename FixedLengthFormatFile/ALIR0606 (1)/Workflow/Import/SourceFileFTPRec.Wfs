@@ -1,0 +1,2422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowDocument2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.1.0.1330">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\hud-etldev-01\Centerprise\Projects\ALIR\Workflow\Import\SourceFileFTPRec.Wfs</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <UseLegacyParameterSyntax>false</UseLegacyParameterSyntax>
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>67ceb49b-065a-4127-853d-cd4863406e31</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>67ceb49b-065a-4127-853d-cd4863406e31</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ContextInfo</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>10</X>
+            <Y>43</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Wf_MainALIR_Job_MetaData</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataContext>
+        <Name>Wf_MainALIR_Job_MetaData</Name>
+        <EntityName>Wf_MainALIR_Job_MetaDatum</EntityName>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>Name</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>JobId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>ScheduledJobId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>ServerName</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>UserName</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>DroppedFilePath</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>SubmissionId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+        </Parameters>
+        <IsSubmissionContext>true</IsSubmissionContext>
+      </DataflowItemDataContext>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>59585773-d41a-4da6-a38d-d59aace5811f</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>59585773-d41a-4da6-a38d-d59aace5811f</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Parameters</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>4</X>
+            <Y>120.000015</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Wf_Sff_Variables</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataParameter>
+        <Name>Wf_Sff_Variables</Name>
+        <EntityName>Wf_Sff_Variable</EntityName>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>ParentJobID</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+            <ParameterPath />
+          </ParameterInfoBase>
+        </Parameters>
+      </DataflowItemDataParameter>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>76fa22ab-0a70-4b72-9484-b51d607139fb</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>76fa22ab-0a70-4b72-9484-b51d607139fb</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RunWorkflow2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>604</X>
+            <Y>96.96355</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DownloadSourceFileFTP</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <WorkflowItemDataStartWorkflowJob2>
+        <Name>DownloadSourceFileFTP</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <JobFilePath>
+          <Path>\\hud-etldev-01\Centerprise\Projects\ALIR\Workflow\Import\DownloadSourceFileFTP.Wfs</Path>
+          <UncPath>\\hud-etldev-01\Centerprise\Projects\ALIR\Workflow\Import\DownloadSourceFileFTP.Wfs</UncPath>
+          <RelativePath>DownloadSourceFileFTP.Wfs</RelativePath>
+        </JobFilePath>
+        <ServerPort>0</ServerPort>
+        <ParameterInfo>
+          <AllowsSharedActions>true</AllowsSharedActions>
+          <AllowsReplacementCharacter>false</AllowsReplacementCharacter>
+          <AllowsFileIterators>false</AllowsFileIterators>
+          <ActionParameters>
+            <ActionParameterInfo>
+              <Name>SFTP_Src_Files_Download</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoFtpConnectInfo">
+                  <Name>FtpConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;FtpConnectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;Authentication&gt;&lt;AuthenticationMethod&gt;None&lt;/AuthenticationMethod&gt;&lt;ConsumerKey /&gt;&lt;ConsuerSecret /&gt;&lt;UserName /&gt;&lt;Password /&gt;&lt;TokenExpiryDateTime&gt;0001-01-01T00:00:00&lt;/TokenExpiryDateTime&gt;&lt;/Authentication&gt;&lt;Proxy&gt;&lt;UseProxy&gt;false&lt;/UseProxy&gt;&lt;ProxyPort&gt;8080&lt;/ProxyPort&gt;&lt;ProxyType&gt;Socks4&lt;/ProxyType&gt;&lt;LogLevel&gt;Off&lt;/LogLevel&gt;&lt;ProxyLoginName /&gt;&lt;ProxyPassword /&gt;&lt;/Proxy&gt;&lt;TransportSecurity&gt;&lt;SecurityType&gt;None&lt;/SecurityType&gt;&lt;CertificateFilePath&gt;&lt;Path /&gt;&lt;UncPath /&gt;&lt;/CertificateFilePath&gt;&lt;CertificatePassword /&gt;&lt;PrivateKey /&gt;&lt;IntegrityProtectionType&gt;None&lt;/IntegrityProtectionType&gt;&lt;/TransportSecurity&gt;&lt;Url&gt;sftp.odysseyre.com&lt;/Url&gt;&lt;Port&gt;22&lt;/Port&gt;&lt;Timeout&gt;30&lt;/Timeout&gt;&lt;RetryCount&gt;4&lt;/RetryCount&gt;&lt;RequireSSL&gt;false&lt;/RequireSSL&gt;&lt;UserName&gt;&lt;E&gt;4302749515186C0AC3719694755FE7BA&lt;/E&gt;&lt;/UserName&gt;&lt;Password&gt;&lt;E&gt;B932CF9DFACA32EB0747B60296953902&lt;/E&gt;&lt;/Password&gt;&lt;LogLevel&gt;Off&lt;/LogLevel&gt;&lt;EmailProtocol&gt;Imap&lt;/EmailProtocol&gt;&lt;Type&gt;Local&lt;/Type&gt;&lt;WebProtocol&gt;Sftp&lt;/WebProtocol&gt;&lt;Protocol&gt;Sftp&lt;/Protocol&gt;&lt;Details xsi:type="SftpProtocolDetails"&gt;&lt;UseProxy&gt;false&lt;/UseProxy&gt;&lt;ProxyPort&gt;8080&lt;/ProxyPort&gt;&lt;ProxyType&gt;Socks4&lt;/ProxyType&gt;&lt;LogLevel&gt;Verbose&lt;/LogLevel&gt;&lt;DisableSftp4&gt;false&lt;/DisableSftp4&gt;&lt;ProxyLoginName /&gt;&lt;ProxyPassword /&gt;&lt;AuthenticationType&gt;NamePassword&lt;/AuthenticationType&gt;&lt;AuthenticationFilePassphrase /&gt;&lt;/Details&gt;&lt;ProviderType&gt;Ftp&lt;/ProviderType&gt;&lt;/FtpConnectInfo&gt;</CurrentValueStr>
+                  <DataType>FtpInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoFilePath">
+                  <Name>LocalFile</Name>
+                  <CurrentValueStr>\\hud-etldev-01\Centerprise\Projects\ALIR\Source Files</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>true</IsWebPath>
+                  <FileUsage>Write</FileUsage>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoDirectoryPath">
+                  <Name>RemoteFile</Name>
+                  <CurrentValueStr>/CVALIR</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <IsConsolidated>false</IsConsolidated>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>ALIRScourceFile_MetaData</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoDbInfo">
+                  <Name>DbConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DatabaseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="stm-dbdev-16" Database="HudsonDMV" Schema="" EncryptedUser="" EncryptedPassword="" TableName="ALIRScourceFile_MetaData" TableSchema="" UseWindowsAuthentication="true" UseCurrentDatabase="false"&gt;&lt;IsReadOnly&gt;false&lt;/IsReadOnly&gt;&lt;providerFilter&gt;&lt;DataProviderType&gt;SqlServer&lt;/DataProviderType&gt;&lt;/providerFilter&gt;&lt;UseSharedConnection&gt;false&lt;/UseSharedConnection&gt;&lt;SharedConnectionShareConnectionInstanceAmongDestinations&gt;false&lt;/SharedConnectionShareConnectionInstanceAmongDestinations&gt;&lt;SharedConnectionUseTransaction&gt;false&lt;/SharedConnectionUseTransaction&gt;&lt;UseS3ForStaging&gt;false&lt;/UseS3ForStaging&gt;&lt;StagingProvider&gt;None&lt;/StagingProvider&gt;&lt;WebAuthentication&gt;&lt;AuthenticationMethod&gt;None&lt;/AuthenticationMethod&gt;&lt;ConsumerKey /&gt;&lt;ConsuerSecret /&gt;&lt;UserName /&gt;&lt;Password /&gt;&lt;TokenExpiryDateTime&gt;0001-01-01T00:00:00&lt;/TokenExpiryDateTime&gt;&lt;/WebAuthentication&gt;&lt;IsErp&gt;false&lt;/IsErp&gt;&lt;SqlAnywhereAction&gt;Connect_to_a_Running_DB_This_Computer&lt;/SqlAnywhereAction&gt;&lt;SecurityToken /&gt;&lt;UseSandbox&gt;false&lt;/UseSandbox&gt;&lt;RetrieveDeleted&gt;false&lt;/RetrieveDeleted&gt;&lt;ResetCache&gt;false&lt;/ResetCache&gt;&lt;WebProxyUserId /&gt;&lt;WebProxyPassword /&gt;&lt;JobId&gt;-1&lt;/JobId&gt;&lt;RedirectUri&gt;http://localhost:8050/&lt;/RedirectUri&gt;&lt;OverrideDefaultOdbcDriverAttributes&gt;false&lt;/OverrideDefaultOdbcDriverAttributes&gt;&lt;OdbcConnectionInfoType&gt;DSN&lt;/OdbcConnectionInfoType&gt;&lt;NoSqlProvider&gt;MongoDb&lt;/NoSqlProvider&gt;&lt;IsNoSql&gt;false&lt;/IsNoSql&gt;&lt;IsReplicaEnabled&gt;false&lt;/IsReplicaEnabled&gt;&lt;UseTLS&gt;false&lt;/UseTLS&gt;&lt;CursorTimeOut&gt;600&lt;/CursorTimeOut&gt;&lt;NumberOfRecordsToScan&gt;100&lt;/NumberOfRecordsToScan&gt;&lt;ReadPreference&gt;Primary&lt;/ReadPreference&gt;&lt;AuthenticationDatabase&gt;admin&lt;/AuthenticationDatabase&gt;&lt;/DatabaseInfo&gt;</CurrentValueStr>
+                  <DataType>DbInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>MatchingFields</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>TruncateTable</Name>
+                  <CurrentValueStr>False</CurrentValueStr>
+                  <DataType>Boolean</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>Wf_Sff_Variables</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>ParentJobID</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>StateCode</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+          </ActionParameters>
+        </ParameterInfo>
+        <ResumeActionType>Resume</ResumeActionType>
+        <SavedOutboundMeta>
+          <Children />
+          <Elements />
+          <Referenced>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>$JobFilePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobID</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>RemotePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>DownloadFIlePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>DownloadFileName</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ProducersName</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Input</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>Status</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorMessage</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorStack</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>CompletedSuccessfully</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Boolean</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Boolean</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>JobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>SessionId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Output</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+          </Referenced>
+          <Name>DownloadSourceFileFTP</Name>
+          <InboundPortVisible>true</InboundPortVisible>
+          <OutboundPortVisible>true</OutboundPortVisible>
+          <Indicator>None</Indicator>
+          <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+          <IsEmbeddedMember>false</IsEmbeddedMember>
+        </SavedOutboundMeta>
+      </WorkflowItemDataStartWorkflowJob2>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>558ee710-4cdd-43db-8c85-bdcb6e357f4f</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>558ee710-4cdd-43db-8c85-bdcb6e357f4f</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RunWorkflow2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>1221</X>
+            <Y>95.96355</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DeleteSourceSFTPFiles</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <WorkflowItemDataStartWorkflowJob2>
+        <Name>DeleteSourceSFTPFiles</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <JobFilePath>
+          <Path>\\hud-etldev-01\Centerprise\Projects\ALIR\Workflow\Import\DeleteSourceSFTPFiles.Wfs</Path>
+          <UncPath>\\hud-etldev-01\Centerprise\Projects\ALIR\Workflow\Import\DeleteSourceSFTPFiles.Wfs</UncPath>
+          <RelativePath>DeleteSourceSFTPFiles.Wfs</RelativePath>
+        </JobFilePath>
+        <ServerPort>0</ServerPort>
+        <ParameterInfo>
+          <AllowsSharedActions>true</AllowsSharedActions>
+          <AllowsReplacementCharacter>false</AllowsReplacementCharacter>
+          <AllowsFileIterators>false</AllowsFileIterators>
+          <ActionParameters>
+            <ActionParameterInfo>
+              <Name>ALIRScourceFile_MetaData1</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoDbInfo">
+                  <Name>DbConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DatabaseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Server="stm-dbdev-16" Database="HudsonDMV" Schema="" EncryptedUser="" EncryptedPassword="" TableName="ALIRScourceFile_MetaData" TableSchema="dbo" UseWindowsAuthentication="true" UseCurrentDatabase="false"&gt;&lt;IsReadOnly&gt;false&lt;/IsReadOnly&gt;&lt;providerFilter&gt;&lt;DataProviderType&gt;SqlServer&lt;/DataProviderType&gt;&lt;/providerFilter&gt;&lt;UseSharedConnection&gt;false&lt;/UseSharedConnection&gt;&lt;SharedConnectionShareConnectionInstanceAmongDestinations&gt;false&lt;/SharedConnectionShareConnectionInstanceAmongDestinations&gt;&lt;SharedConnectionUseTransaction&gt;false&lt;/SharedConnectionUseTransaction&gt;&lt;UseS3ForStaging&gt;false&lt;/UseS3ForStaging&gt;&lt;StagingProvider&gt;None&lt;/StagingProvider&gt;&lt;WebAuthentication&gt;&lt;AuthenticationMethod&gt;None&lt;/AuthenticationMethod&gt;&lt;ConsumerKey /&gt;&lt;ConsuerSecret /&gt;&lt;UserName /&gt;&lt;Password /&gt;&lt;TokenExpiryDateTime&gt;0001-01-01T00:00:00&lt;/TokenExpiryDateTime&gt;&lt;/WebAuthentication&gt;&lt;IsErp&gt;false&lt;/IsErp&gt;&lt;SqlAnywhereAction&gt;Connect_to_a_Running_DB_This_Computer&lt;/SqlAnywhereAction&gt;&lt;SecurityToken /&gt;&lt;UseSandbox&gt;false&lt;/UseSandbox&gt;&lt;RetrieveDeleted&gt;false&lt;/RetrieveDeleted&gt;&lt;ResetCache&gt;false&lt;/ResetCache&gt;&lt;WebProxyUserId /&gt;&lt;WebProxyPassword /&gt;&lt;JobId&gt;-1&lt;/JobId&gt;&lt;RedirectUri&gt;http://localhost:8050/&lt;/RedirectUri&gt;&lt;OverrideDefaultOdbcDriverAttributes&gt;false&lt;/OverrideDefaultOdbcDriverAttributes&gt;&lt;OdbcConnectionInfoType&gt;DSN&lt;/OdbcConnectionInfoType&gt;&lt;NoSqlProvider&gt;MongoDb&lt;/NoSqlProvider&gt;&lt;IsNoSql&gt;false&lt;/IsNoSql&gt;&lt;IsReplicaEnabled&gt;false&lt;/IsReplicaEnabled&gt;&lt;UseTLS&gt;false&lt;/UseTLS&gt;&lt;CursorTimeOut&gt;600&lt;/CursorTimeOut&gt;&lt;NumberOfRecordsToScan&gt;100&lt;/NumberOfRecordsToScan&gt;&lt;ReadPreference&gt;Primary&lt;/ReadPreference&gt;&lt;AuthenticationDatabase&gt;admin&lt;/AuthenticationDatabase&gt;&lt;/DatabaseInfo&gt;</CurrentValueStr>
+                  <DataType>DbInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>Wf_Sff_Variables</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>ParentJobID</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>ALIRScourceFile_MetaData</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoDbInfo">
+                  <Name>DbConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DatabaseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Server="stm-dbdev-16" Database="HudsonDMV" Schema="" EncryptedUser="" EncryptedPassword="" TableName="ALIRScourceFile_MetaData" TableSchema="dbo" UseWindowsAuthentication="true" UseCurrentDatabase="false"&gt;&lt;IsReadOnly&gt;false&lt;/IsReadOnly&gt;&lt;providerFilter&gt;&lt;DataProviderType&gt;SqlServer&lt;/DataProviderType&gt;&lt;/providerFilter&gt;&lt;UseSharedConnection&gt;false&lt;/UseSharedConnection&gt;&lt;SharedConnectionShareConnectionInstanceAmongDestinations&gt;false&lt;/SharedConnectionShareConnectionInstanceAmongDestinations&gt;&lt;SharedConnectionUseTransaction&gt;false&lt;/SharedConnectionUseTransaction&gt;&lt;UseS3ForStaging&gt;false&lt;/UseS3ForStaging&gt;&lt;StagingProvider&gt;None&lt;/StagingProvider&gt;&lt;WebAuthentication&gt;&lt;AuthenticationMethod&gt;None&lt;/AuthenticationMethod&gt;&lt;ConsumerKey /&gt;&lt;ConsuerSecret /&gt;&lt;UserName /&gt;&lt;Password /&gt;&lt;TokenExpiryDateTime&gt;0001-01-01T00:00:00&lt;/TokenExpiryDateTime&gt;&lt;/WebAuthentication&gt;&lt;IsErp&gt;false&lt;/IsErp&gt;&lt;SqlAnywhereAction&gt;Connect_to_a_Running_DB_This_Computer&lt;/SqlAnywhereAction&gt;&lt;SecurityToken /&gt;&lt;UseSandbox&gt;false&lt;/UseSandbox&gt;&lt;RetrieveDeleted&gt;false&lt;/RetrieveDeleted&gt;&lt;ResetCache&gt;false&lt;/ResetCache&gt;&lt;WebProxyUserId /&gt;&lt;WebProxyPassword /&gt;&lt;JobId&gt;-1&lt;/JobId&gt;&lt;RedirectUri&gt;http://localhost:8050/&lt;/RedirectUri&gt;&lt;OverrideDefaultOdbcDriverAttributes&gt;false&lt;/OverrideDefaultOdbcDriverAttributes&gt;&lt;OdbcConnectionInfoType&gt;DSN&lt;/OdbcConnectionInfoType&gt;&lt;NoSqlProvider&gt;MongoDb&lt;/NoSqlProvider&gt;&lt;IsNoSql&gt;false&lt;/IsNoSql&gt;&lt;IsReplicaEnabled&gt;false&lt;/IsReplicaEnabled&gt;&lt;UseTLS&gt;false&lt;/UseTLS&gt;&lt;CursorTimeOut&gt;600&lt;/CursorTimeOut&gt;&lt;NumberOfRecordsToScan&gt;100&lt;/NumberOfRecordsToScan&gt;&lt;ReadPreference&gt;Primary&lt;/ReadPreference&gt;&lt;AuthenticationDatabase&gt;admin&lt;/AuthenticationDatabase&gt;&lt;/DatabaseInfo&gt;</CurrentValueStr>
+                  <DataType>DbInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>MatchingFields</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>TruncateTable</Name>
+                  <CurrentValueStr>False</CurrentValueStr>
+                  <DataType>Boolean</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>SFTP_Src_Files_Delete</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoFtpConnectInfo">
+                  <Name>FtpConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;FtpConnectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;Authentication&gt;&lt;AuthenticationMethod&gt;None&lt;/AuthenticationMethod&gt;&lt;ConsumerKey /&gt;&lt;ConsuerSecret /&gt;&lt;UserName /&gt;&lt;Password /&gt;&lt;TokenExpiryDateTime&gt;0001-01-01T00:00:00&lt;/TokenExpiryDateTime&gt;&lt;/Authentication&gt;&lt;Proxy&gt;&lt;UseProxy&gt;false&lt;/UseProxy&gt;&lt;ProxyPort&gt;8080&lt;/ProxyPort&gt;&lt;ProxyType&gt;Socks4&lt;/ProxyType&gt;&lt;LogLevel&gt;Off&lt;/LogLevel&gt;&lt;ProxyLoginName /&gt;&lt;ProxyPassword /&gt;&lt;/Proxy&gt;&lt;TransportSecurity&gt;&lt;SecurityType&gt;None&lt;/SecurityType&gt;&lt;CertificateFilePath&gt;&lt;Path /&gt;&lt;UncPath /&gt;&lt;/CertificateFilePath&gt;&lt;CertificatePassword /&gt;&lt;PrivateKey /&gt;&lt;IntegrityProtectionType&gt;None&lt;/IntegrityProtectionType&gt;&lt;/TransportSecurity&gt;&lt;Url&gt;sftp.odysseyre.com&lt;/Url&gt;&lt;Port&gt;22&lt;/Port&gt;&lt;Timeout&gt;30&lt;/Timeout&gt;&lt;RetryCount&gt;4&lt;/RetryCount&gt;&lt;RequireSSL&gt;false&lt;/RequireSSL&gt;&lt;UserName&gt;&lt;E&gt;4302749515186C0AC3719694755FE7BA&lt;/E&gt;&lt;/UserName&gt;&lt;Password&gt;&lt;E&gt;B932CF9DFACA32EB0747B60296953902&lt;/E&gt;&lt;/Password&gt;&lt;LogLevel&gt;Off&lt;/LogLevel&gt;&lt;EmailProtocol&gt;Imap&lt;/EmailProtocol&gt;&lt;Type&gt;Local&lt;/Type&gt;&lt;WebProtocol&gt;Sftp&lt;/WebProtocol&gt;&lt;Protocol&gt;Sftp&lt;/Protocol&gt;&lt;Details xsi:type="SftpProtocolDetails"&gt;&lt;UseProxy&gt;false&lt;/UseProxy&gt;&lt;ProxyPort&gt;8080&lt;/ProxyPort&gt;&lt;ProxyType&gt;Socks4&lt;/ProxyType&gt;&lt;LogLevel&gt;Off&lt;/LogLevel&gt;&lt;DisableSftp4&gt;false&lt;/DisableSftp4&gt;&lt;ProxyLoginName /&gt;&lt;ProxyPassword /&gt;&lt;AuthenticationType&gt;NamePassword&lt;/AuthenticationType&gt;&lt;AuthenticationFilePassphrase /&gt;&lt;/Details&gt;&lt;ProviderType&gt;Ftp&lt;/ProviderType&gt;&lt;/FtpConnectInfo&gt;</CurrentValueStr>
+                  <DataType>FtpInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoDirectoryPath">
+                  <Name>RemoteFile</Name>
+                  <CurrentValueStr>/CVALIR</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <IsConsolidated>false</IsConsolidated>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+          </ActionParameters>
+        </ParameterInfo>
+        <ResumeActionType>Resume</ResumeActionType>
+        <SavedOutboundMeta>
+          <Children />
+          <Elements />
+          <Referenced>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>$JobFilePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobID</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>RemotePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>FileID</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ProducerName</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Input</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>Status</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorMessage</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorStack</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>CompletedSuccessfully</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Boolean</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Boolean</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>JobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>SessionId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Output</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+          </Referenced>
+          <Name>DeleteSourceSFTPFiles</Name>
+          <InboundPortVisible>true</InboundPortVisible>
+          <OutboundPortVisible>true</OutboundPortVisible>
+          <Indicator>None</Indicator>
+          <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+          <IsEmbeddedMember>false</IsEmbeddedMember>
+        </SavedOutboundMeta>
+      </WorkflowItemDataStartWorkflowJob2>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>ca184a9f-276a-4f4e-b7aa-307ff0e50b46</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>ca184a9f-276a-4f4e-b7aa-307ff0e50b46</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>FtpList</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>271</X>
+            <Y>65</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Loop</SourceActionRole>
+        <Name>FtpList</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceFtpFileSystem>
+        <Name>FtpList</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>FtpList</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FileName" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>3c4569d6-7371-42c4-9df0-6d435ed82071</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FullPath" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FullPath">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7c4916d2-f4e1-4d1b-8e23-e75c35dbd393</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="CreateTime" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CreateTime">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>975c038d-823b-4316-8bfd-9ac2bf63b3ec</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Flags" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Flags">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>82cde113-2637-41f8-92ff-76f74973d3eb</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Group" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Group">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1f9a9b85-5bff-4847-8544-edfa98cd67aa</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Size" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Size">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>9db30e6a-becb-4a60-86e2-e62dd8f022e4</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="IsDirectory" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="IsDirectory">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>16e0703d-8971-4ec5-b912-a62351fec790</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Owner" Index="7" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Owner">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>100c8ca1-ce00-4577-8a69-2ddc3bbdf6a1</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Loop</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <RemotePath>
+          <Path>/CVALIR/</Path>
+          <UncPath>/CVALIR/</UncPath>
+        </RemotePath>
+        <Connection>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Url>sftp.odysseyre.com</Url>
+          <Port>22</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName>
+            <E>4302749515186C0AC3719694755FE7BA</E>
+          </UserName>
+          <Password>
+            <E>B932CF9DFACA32EB0747B60296953902</E>
+          </Password>
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Imap</EmailProtocol>
+          <Type>Local</Type>
+          <WebProtocol>Sftp</WebProtocol>
+          <Protocol>Sftp</Protocol>
+          <Details xsi:type="SftpProtocolDetails">
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <DisableSftp4>false</DisableSftp4>
+            <ProxyLoginName />
+            <ProxyPassword />
+            <AuthenticationFile>
+              <Path />
+              <UncPath />
+            </AuthenticationFile>
+            <AuthenticationType>NamePassword</AuthenticationType>
+            <AuthenticationFilePassphrase />
+          </Details>
+          <ProviderType>Ftp</ProviderType>
+        </Connection>
+        <SearchInSubdirectories>true</SearchInSubdirectories>
+        <IncludeEntriesForDirectories>false</IncludeEntriesForDirectories>
+        <Attributes />
+      </DataflowItemDataSourceFtpFileSystem>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>eeae8d10-5b62-4ef2-b539-d365caab61f4</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>eeae8d10-5b62-4ef2-b539-d365caab61f4</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Expression</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>400</X>
+            <Y>338</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Expression</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataExpressionList>
+        <Name>Expression</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Expression</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FileName" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="RemotePath">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>3c4569d6-7371-42c4-9df0-6d435ed82071</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="N" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Position">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>b11f42b0-a105-4198-9b18-be14275b7f40</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <Expression>Find("/",Right(RemotePath,Length(RemotePath)-1)1)</Expression>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="P" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Path">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2c2b4e11-e1cb-4019-82fa-7e7f5a738866</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <Expression>Right(RemotePath,Length(RemotePath)-1)</Expression>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="P" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ProducersName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>07e9d53e-f9c9-494c-a771-4b9e220cb6d4</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <Expression>Left(Path,Position)</Expression>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <ActionRole>Normal</ActionRole>
+      </DataflowItemDataExpressionList>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>dd38da4a-e333-42c2-9401-cbd29ddf1369</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>dd38da4a-e333-42c2-9401-cbd29ddf1369</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DatabaseSource</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>264</Width>
+            <X>859</X>
+            <Y>156.96356</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Loop</SourceActionRole>
+        <Name>ALIRScourceFile_MetaData</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceDatabase>
+        <Name>ALIRScourceFile_MetaData</Name>
+        <EntityName>ALIRScourceFile_MetaDatum</EntityName>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ALIRScourceFile_MetaData</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="ParentJobID" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ParentJobID" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="ParentJobID">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2fcb4ed6-05ab-46b6-bb04-180f75f6ba88</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="Integer" IsPrimaryKey="false" Header="FileID" Index="1" AllowsNull="false" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileID" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="true" ColumnName="FileID">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2607cc1f-8f6c-4f2a-9353-908058e36e81</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="FileRemotePath" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileRemotePath" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="FileRemotePath">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>421ab07c-a034-4e09-9ba4-0c408ff087be</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="FileLocalPath" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileLocalPath" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="FileLocalPath">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>6d2bb7a2-aff0-44a1-87d9-a21fda94534b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="FileName" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="FileName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>b7799620-ba69-4edb-8655-a067c74e4567</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="String" IsPrimaryKey="false" Header="FileType" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileType" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="FileType">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>0ff7a68b-5f2b-429d-ad39-0d78fcf4c258</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="FileDownloadDate" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FileDownloadDate" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="FileDownloadDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>59fc522f-48b1-40b4-a564-d21f407aba5e</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="50" DataType="String" IsPrimaryKey="false" Header="Status" Index="7" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Status" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="Status">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>98db024d-cc7f-4455-a024-7eb4939190e7</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="1000" DataType="String" IsPrimaryKey="false" Header="DownloadError" Index="8" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DownloadError" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="DownloadError">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>67b9afdb-2662-4d52-acd2-90db05d81428</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="DownLoded" Index="9" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DownLoded" DbDataTypeName="BIT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="DownLoded">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1e0c37f4-8fd1-42b4-92dd-6105834efb79</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="SFTPFileDeleted" Index="10" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SFTPFileDeleted" DbDataTypeName="BIT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SFTPFileDeleted">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ee28229b-95b0-4ca8-92e9-2e1a8a52775c</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="SFTPFileDeletedDate" Index="11" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SFTPFileDeletedDate" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SFTPFileDeletedDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1da8fa99-4fe4-4b00-a469-2ff4c69df706</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="ProducersName" Index="12" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ProducersName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="ProducersName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>56796380-d355-4516-ae1d-737050733127</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="SrcFileProcessed" Index="13" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileProcessed" DbDataTypeName="BIT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SrcFileProcessed">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>43cafc3a-8858-4103-9873-79635fc513ea</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="SrcFileProcessedDate" Index="14" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileProcessedDate" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SrcFileProcessedDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>431cd270-3353-46e6-b118-eb29b61dceb3</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="Integer" IsPrimaryKey="false" Header="SrcFileTotalRecords" Index="15" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileTotalRecords" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SrcFileTotalRecords">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>022acb81-5a92-46ec-b6b8-44875dec4f78</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="Integer" IsPrimaryKey="false" Header="SrcFileProcessedRecords" Index="16" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileProcessedRecords" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SrcFileProcessedRecords">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>070e7c8d-89f8-42a2-a814-8274cba1b8d6</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="Integer" IsPrimaryKey="false" Header="SrcFileErrorsRecords" Index="17" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileErrorsRecords" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SrcFileErrorsRecords">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>6d54fbcb-4aaa-4d71-9a52-72076883c476</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3000" DataType="String" IsPrimaryKey="false" Header="SrcFileErrorsEmailBody" Index="18" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="SrcFileErrorsEmailBody" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="SrcFileErrorsEmailBody">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d9c42350-f5ac-4487-a3bf-8525d846a807</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="OutPutFileFullName" Index="19" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileFullName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="OutPutFileFullName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>80a06067-c7ae-425d-894e-5826492d1479</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="OutPutFileName" Index="20" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="OutPutFileName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>24332f0e-fd36-4c04-8b2c-d3c69dc7ad59</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="OutPutFileCreated" Index="21" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileCreated" DbDataTypeName="BIT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OutPutFileCreated">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ee78c796-5a9a-47ec-a832-49e4202192df</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="OutPutFileID" Index="22" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileID" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="OutPutFileID">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>414bbf91-b619-41fd-81bb-f2719b2b1cd1</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="OutPutFileSent" Index="23" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileSent" DbDataTypeName="BIT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OutPutFileSent">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>28214951-7864-4a06-a1c4-8f207f0bb671</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="OutPutFileSentDate" Index="24" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileSentDate" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OutPutFileSentDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>264cf6ca-5480-4a64-9b4a-259ae1376ac8</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="OutPutFileArchiveFullName" Index="25" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileArchiveFullName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="OutPutFileArchiveFullName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>820b701e-fc9b-4045-bfd3-d626bbbdca15</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="300" DataType="String" IsPrimaryKey="false" Header="OutPutFileArchiveName" Index="26" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileArchiveName" DbDataTypeName="VARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="OutPutFileArchiveName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>e5359fa5-3bbe-4294-8370-91f186876ee2</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="OutPutFileArchiveDate" Index="27" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OutPutFileArchiveDate" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OutPutFileArchiveDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>9e098694-2d49-466e-b5c5-d5c5eb38152f</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="insert_date" Index="28" AllowsNull="false" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="insert_date" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="insert_date">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d3d253d0-48e9-4449-979b-5e6fd9adee19</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Date" IsPrimaryKey="false" Header="update_date" Index="29" AllowsNull="false" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="update_date" DbDataTypeName="DATETIME" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="update_date">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2be55ed3-542a-452b-818f-d941e5aaa271</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Server="Hud-ETLDBDEV-01" Database="HudsonDMV" Schema="" EncryptedUser="" EncryptedPassword="" TableName="ALIRScourceFile_MetaData" TableSchema="dbo" UseWindowsAuthentication="true" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>SqlServer</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+            <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <WebAuthentication>
+              <AuthenticationMethod>None</AuthenticationMethod>
+              <ConsumerKey />
+              <ConsuerSecret />
+              <UserName />
+              <Password />
+              <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+            </WebAuthentication>
+            <IsErp>false</IsErp>
+            <SqlAnywhereAction>Connect_to_a_Running_DB_This_Computer</SqlAnywhereAction>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>-1</JobId>
+            <RedirectUri>http://localhost:8050/</RedirectUri>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+            <NoSqlProvider>MongoDb</NoSqlProvider>
+            <IsNoSql>false</IsNoSql>
+            <IsReplicaEnabled>false</IsReplicaEnabled>
+            <UseTLS>false</UseTLS>
+            <CursorTimeOut>600</CursorTimeOut>
+            <NumberOfRecordsToScan>100</NumberOfRecordsToScan>
+            <ReadPreference>Primary</ReadPreference>
+            <AuthenticationDatabase>admin</AuthenticationDatabase>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" PartitionKeyField="ParentJobID" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <WhereClause>ParentJobID = {Wf_Sff_Variables.ParentJobID} and DownLoded = 1</WhereClause>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <PartitionKeyValues />
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <Name>ALIRScourceFile_MetaData</Name>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema>dbo</Schema>
+              <DataModelEntityType>Unknown</DataModelEntityType>
+              <DimensionType>None</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsCdcEnabled>false</IsCdcEnabled>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+              <ActionName>ALIRScourceFile_MetaData</ActionName>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
+          </DefaultWriterOptions>
+          <PrimaryKey />
+          <AllowsScd3AndScd6FieldRoles>true</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Loop</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <IsDynamicLayout>false</IsDynamicLayout>
+        <DynamicLayoutOptions>
+          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
+          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
+        </DynamicLayoutOptions>
+        <CanPushdown>true</CanPushdown>
+        <SharingConnection>true</SharingConnection>
+        <SharedConnectionName>ALIR</SharedConnectionName>
+        <CDCAuditFieldFile>
+          <Path />
+          <UncPath />
+        </CDCAuditFieldFile>
+        <PerformFullLoad>false</PerformFullLoad>
+        <PerformCDC>false</PerformCDC>
+        <DbInfo Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Server="Hud-ETLDBDEV-01" Database="HudsonDMV" Schema="" EncryptedUser="" EncryptedPassword="" TableName="ALIRScourceFile_MetaData" TableSchema="dbo" UseWindowsAuthentication="true" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>SqlServer</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <WebAuthentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </WebAuthentication>
+          <IsErp>false</IsErp>
+          <SqlAnywhereAction>Connect_to_a_Running_DB_This_Computer</SqlAnywhereAction>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>-1</JobId>
+          <RedirectUri>http://localhost:8050/</RedirectUri>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          <NoSqlProvider>MongoDb</NoSqlProvider>
+          <IsNoSql>false</IsNoSql>
+          <IsReplicaEnabled>false</IsReplicaEnabled>
+          <UseTLS>false</UseTLS>
+          <CursorTimeOut>600</CursorTimeOut>
+          <NumberOfRecordsToScan>100</NumberOfRecordsToScan>
+          <ReadPreference>Primary</ReadPreference>
+          <AuthenticationDatabase>admin</AuthenticationDatabase>
+        </DbInfo>
+      </DataflowItemDataSourceDatabase>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links>
+    <FlowDocumentItemLink>
+      <UniqueId>d82944da-ad56-4a30-b944-303309b3a5f5</UniqueId>
+      <Start>FtpList</Start>
+      <End>DownloadSourceFileFTP</End>
+      <LinkType>Loop</LinkType>
+    </FlowDocumentItemLink>
+    <FlowDocumentItemLink>
+      <UniqueId>a3a0f97f-2e8f-4d3d-95c0-aa584fe61f6f</UniqueId>
+      <Start>DownloadSourceFileFTP</Start>
+      <End>ALIRScourceFile_MetaData</End>
+      <LinkType>Normal</LinkType>
+    </FlowDocumentItemLink>
+    <FlowDocumentItemLink>
+      <UniqueId>2b59bed5-72c6-4e5e-8547-dc78f6c6f0fa</UniqueId>
+      <Start>ALIRScourceFile_MetaData</Start>
+      <End>DeleteSourceSFTPFiles</End>
+      <LinkType>Loop</LinkType>
+    </FlowDocumentItemLink>
+  </Links>
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>329bdf5f-98dd-48c9-a3c1-feda10a39442</UniqueId>
+      <Start>Wf_Sff_Variables.ParentJobID</Start>
+      <End>DownloadSourceFileFTP.Input.ParentJobID</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>a2641a45-dedc-4bfa-841c-51bf20a5a11c</UniqueId>
+      <Start>FtpList.FileName</Start>
+      <End>DownloadSourceFileFTP.Input.DownloadFileName</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>5ed216d4-ae4f-4366-bf8b-734a84dbc54a</UniqueId>
+      <Start>FtpList.FullPath</Start>
+      <End>DownloadSourceFileFTP.Input.RemotePath</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>d5fb4b52-0201-41d9-b02b-f46bb2b96967</UniqueId>
+      <Start>FtpList.FullPath</Start>
+      <End>Expression.RemotePath</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>8734daeb-8c21-4f17-977d-7fe855269bd9</UniqueId>
+      <Start>Expression.ProducersName</Start>
+      <End>DownloadSourceFileFTP.Input.ProducersName</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>c10caf46-8b33-4eac-8ffe-049790c10a46</UniqueId>
+      <Start>Wf_Sff_Variables.ParentJobID</Start>
+      <End>DeleteSourceSFTPFiles.Input.ParentJobID</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>91db494d-f8da-4bc3-b6b9-c3451ce9f9df</UniqueId>
+      <Start>ALIRScourceFile_MetaData.FileID</Start>
+      <End>DeleteSourceSFTPFiles.Input.FileID</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>dd5f7c43-7124-4606-b6d1-1064fa326095</UniqueId>
+      <Start>ALIRScourceFile_MetaData.FileRemotePath</Start>
+      <End>DeleteSourceSFTPFiles.Input.RemotePath</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>84d76e32-8a8b-4d3b-b029-2f8716caabc3</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>4</X>
+        <Y>43</Y>
+      </Location>
+      <Size>
+        <Width>1429</Width>
+        <Height>480</Height>
+      </Size>
+      <X>4</X>
+      <Y>43</Y>
+      <Width>1429</Width>
+      <Height>480</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>-10</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+</WorkflowDocument2>
