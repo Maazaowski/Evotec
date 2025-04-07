@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UdDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.2.0.46">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\astera.com\share\general\Sadia Sayeed\FieldVerification\BlankFieldFollowedByCharacter.Rmd</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>2023-03-06T22:53:59.5519511-08:00</UpdateDtTm>
+  <PublishToCatalog>false</PublishToCatalog>
+  <ExportTables>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>0d5de2a9-85cc-4c73-bcea-9721e3904cce</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>0d5de2a9-85cc-4c73-bcea-9721e3904cce</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DelimitedDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Record_Export</Name>
+      </ActionProperties>
+      <DataflowItemDataDestinationDelimited>
+        <Name>Record_Export</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_Export</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Delimited</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DelimitedLayoutField MaxFieldLengthInLayoutBuilding="0" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="BlankField" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="BlankField">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.BlankField</SourceFieldPath>
+              <UniqueId>af058e15-f61e-4729-8a78-bd0f5ebb6fa0</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+            </DelimitedLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <IsWebServerLogFile>false</IsWebServerLogFile>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\astera.com\share\general\Sadia Sayeed\FieldVerification\test.csv" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" AlwaysWriteQuoteChar="false" FieldDelimiter="," FieldEscapeType="SurroundWithQualifier" QuoteChar="34" QuoteEscape="0" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" FieldDelimiterString="&lt;Comma&gt;">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\astera.com\share\general\Sadia Sayeed\FieldVerification\test.csv</Path>
+              <UncPath>\\astera.com\share\general\Sadia Sayeed\FieldVerification\test.csv</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HierarchicalProperties>
+            <IsCaseSensitive>false</IsCaseSensitive>
+          </HierarchicalProperties>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>\\astera.com\share\general\Sadia Sayeed\FieldVerification\test.csv</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <SourceFieldPaths>
+          <string>Record.Data.BlankField</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationDelimited>
+    </FlowDocumentItemAction>
+  </ExportTables>
+  <Options>
+    <ContentType>Report</ContentType>
+    <FontSize>0</FontSize>
+    <_RecordDelimiter>&#xD;
+</_RecordDelimiter>
+    <AddSpaceBetweenExcelColumns>5</AddSpaceBetweenExcelColumns>
+    <NumberOfBlankLinesForExcelEof>5</NumberOfBlankLinesForExcelEof>
+    <QuoteChar>34</QuoteChar>
+    <DateFormats />
+    <PatternsCaseSensitive>true</PatternsCaseSensitive>
+    <Looping>false</Looping>
+    <SourceDirectoryForLooping>
+      <Path />
+      <UncPath />
+    </SourceDirectoryForLooping>
+    <SampleFilePath>
+      <Path>\\astera.com\share\general\Usman\Report Sources\All_Pdfs_From_CustDemo\17 WC LR 16-17 years valued (03-01-17).pdf</Path>
+      <UncPath>\\astera.com\share\general\Usman\Report Sources\All_Pdfs_From_CustDemo\17 WC LR 16-17 years valued (03-01-17).pdf</UncPath>
+    </SampleFilePath>
+    <SampleLineCount>5000</SampleLineCount>
+    <OutliningType>ExpandAll</OutliningType>
+    <FieldDelimiter>,</FieldDelimiter>
+    <RecordDelimiter>&#xD;
+</RecordDelimiter>
+    <RemoveBlankLines>false</RemoveBlankLines>
+    <BlankLinesForEof>5</BlankLinesForEof>
+    <TabSize>8</TabSize>
+    <PdfOptions>
+      <NeedsOCR>false</NeedsOCR>
+      <ShowOCRPanel>false</ShowOCRPanel>
+      <IsNewlyLoaded>false</IsNewlyLoaded>
+      <ConvertingOCR>false</ConvertingOCR>
+      <OCRScaleFactor>1</OCRScaleFactor>
+      <MinPPI>150</MinPPI>
+      <RefreshOnNextRun>false</RefreshOnNextRun>
+      <OCRResolution>2</OCRResolution>
+      <PreviousReportPath>\\astera.com\share\general\Usman\Report Sources\All_Pdfs_From_CustDemo\17 WC LR 16-17 years valued (03-01-17).pdf</PreviousReportPath>
+      <ScalingFactor>0</ScalingFactor>
+      <MaintainOriginalLayout>true</MaintainOriginalLayout>
+      <StartPage>0</StartPage>
+      <EndPage>0</EndPage>
+      <filterPages>false</filterPages>
+      <IsValidFilterString>false</IsValidFilterString>
+      <OwnerPassword />
+      <UserPassword />
+    </PdfOptions>
+    <ReportStyle>Default</ReportStyle>
+    <MaintainLocale>false</MaintainLocale>
+    <Culture>en-PK</Culture>
+    <CalculateFields>false</CalculateFields>
+    <checkBoxUseOcr>false</checkBoxUseOcr>
+  </Options>
+  <ReportLayout IsHierarchicalFile="false">
+    <IsFolder>false</IsFolder>
+    <Id>0</Id>
+    <IsNewRecord>false</IsNewRecord>
+    <Name>Record</Name>
+    <Description />
+    <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+    <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+    <IsSharedLayout>false</IsSharedLayout>
+    <LayoutBuildingOptions>
+      <RecordType>ReportMiningDefinition</RecordType>
+      <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+      <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+    </LayoutBuildingOptions>
+    <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+    <Fields />
+    <Children />
+    <Referenced>
+      <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+        <IsFolder>false</IsFolder>
+        <Id>0</Id>
+        <IsNewRecord>false</IsNewRecord>
+        <Name>Data</Name>
+        <Description />
+        <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+        <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+        <IsSharedLayout>false</IsSharedLayout>
+        <LayoutBuildingOptions>
+          <RecordType>ReportMiningDefinition</RecordType>
+          <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+          <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+        </LayoutBuildingOptions>
+        <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+        <Fields>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="0" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="String" IsPrimaryKey="false" Header="FIELD_3" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="BlankField">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>af058e15-f61e-4729-8a78-bd0f5ebb6fa0</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <IsDataValidationEnabled>true</IsDataValidationEnabled>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>24</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+        </Fields>
+        <Children />
+        <Referenced />
+        <ValidationRules />
+        <autoLayoutFields>
+          <RegionContainsHeader>true</RegionContainsHeader>
+          <HeaderSpanOver>1</HeaderSpanOver>
+          <IsAutoGenerated>false</IsAutoGenerated>
+          <IsAutoCreateField>false</IsAutoCreateField>
+          <NoOfSelectedLines>1</NoOfSelectedLines>
+          <RegionNumber>0</RegionNumber>
+          <StartingLineNumber>0</StartingLineNumber>
+          <PreservedFieldNameIndexes />
+          <PreservedFieldNames />
+        </autoLayoutFields>
+        <EndType>LineCount</EndType>
+        <RegionFormat>Unknown</RegionFormat>
+        <Patterns>
+          <LinePatternBase xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText>                                                                     $                                                                                                                                                      </PatternText>
+          </LinePatternBase>
+        </Patterns>
+        <Pattern xsi:type="LinePattern">
+          <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+          <ApplyToLine>0</ApplyToLine>
+          <IsRegEx>false</IsRegEx>
+          <FloatFields>true</FloatFields>
+          <IsFloatingPattern>false</IsFloatingPattern>
+          <LineLength>0</LineLength>
+          <PatternText>                                                                     $                                                                                                                                                      </PatternText>
+        </Pattern>
+        <ContentType>Report</ContentType>
+        <LineCount>1</LineCount>
+        <RegionType>Data</RegionType>
+        <IsContainer>false</IsContainer>
+        <IsOverlappedContainer>false</IsOverlappedContainer>
+        <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+        <patternRegionEnd />
+        <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+        <IsMultiColumnRegion>false</IsMultiColumnRegion>
+        <RegionColumnStarts />
+      </BaseLayout>
+    </Referenced>
+    <ValidationRules />
+    <autoLayoutFields>
+      <RegionContainsHeader>true</RegionContainsHeader>
+      <HeaderSpanOver>1</HeaderSpanOver>
+      <IsAutoGenerated>false</IsAutoGenerated>
+      <IsAutoCreateField>false</IsAutoCreateField>
+      <NoOfSelectedLines>1</NoOfSelectedLines>
+      <RegionNumber>0</RegionNumber>
+      <StartingLineNumber>0</StartingLineNumber>
+      <PreservedFieldNameIndexes />
+      <PreservedFieldNames />
+    </autoLayoutFields>
+    <EndType>LineCount</EndType>
+    <RegionFormat>Unknown</RegionFormat>
+    <Patterns>
+      <LinePatternBase xsi:type="LinePattern">
+        <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+        <ApplyToLine>0</ApplyToLine>
+        <IsRegEx>false</IsRegEx>
+        <FloatFields>true</FloatFields>
+        <IsFloatingPattern>false</IsFloatingPattern>
+        <LineLength>0</LineLength>
+        <PatternText />
+      </LinePatternBase>
+    </Patterns>
+    <Pattern xsi:type="LinePattern">
+      <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+      <ApplyToLine>0</ApplyToLine>
+      <IsRegEx>false</IsRegEx>
+      <FloatFields>true</FloatFields>
+      <IsFloatingPattern>false</IsFloatingPattern>
+      <LineLength>0</LineLength>
+      <PatternText />
+    </Pattern>
+    <ContentType>Report</ContentType>
+    <LineCount>1</LineCount>
+    <RegionType>Top</RegionType>
+    <IsContainer>false</IsContainer>
+    <IsOverlappedContainer>false</IsOverlappedContainer>
+    <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+    <patternRegionEnd />
+    <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+    <IsMultiColumnRegion>false</IsMultiColumnRegion>
+    <RegionColumnStarts />
+  </ReportLayout>
+  <SuppressTransaction>false</SuppressTransaction>
+  <MaxLineLength>220</MaxLineLength>
+  <SampleFilePath>
+    <Path>\\astera.com\share\general\Usman\Report Sources\All_Pdfs_From_CustDemo\17 WC LR 16-17 years valued (03-01-17).pdf</Path>
+    <UncPath>\\astera.com\share\general\Usman\Report Sources\All_Pdfs_From_CustDemo\17 WC LR 16-17 years valued (03-01-17).pdf</UncPath>
+  </SampleFilePath>
+</UdDocument>

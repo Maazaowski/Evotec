@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowDocument2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="9.0.0.1271">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\astera.com\share\general\Sadia Sayeed\FieldVerification\Workflow1.Wfs</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <CatalogInfo>
+    <Name>Workflow1</Name>
+    <PublishToCatalog>false</PublishToCatalog>
+  </CatalogInfo>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <UseLegacyParameterSyntax>false</UseLegacyParameterSyntax>
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>6709bf44-15b3-48d9-ab03-087f7aa8c8c2</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>6709bf44-15b3-48d9-ab03-087f7aa8c8c2</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>SendMail</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>179</X>
+            <Y>93</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>SendMail</Name>
+      </ActionProperties>
+      <WorkflowItemDataSendEmail>
+        <Name>SendMail</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <Body />
+        <IsBodyHtml>false</IsBodyHtml>
+        <EmailConnection>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Url>outlook.office365.com</Url>
+          <Port>25</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName>
+            <E>469486C48631C4111D88FA5EDE2474CA7822FD4127FC15A7A65CA3751059C799</E>
+          </UserName>
+          <Password>
+            <E>1F906D739F1F3D176CE03DEDAE14DB1D</E>
+          </Password>
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Imap</EmailProtocol>
+        </EmailConnection>
+      </WorkflowItemDataSendEmail>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps />
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>04edd6e3-a334-4a03-9a98-ca404903af51</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>173</X>
+        <Y>93</Y>
+      </Location>
+      <Size>
+        <Width>204</Width>
+        <Height>220</Height>
+      </Size>
+      <X>173</X>
+      <Y>93</Y>
+      <Width>204</Width>
+      <Height>220</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>\\astera.com\share\general\Sadia Sayeed\FieldVerification\FieldVerification.cprj</Repository>
+</WorkflowDocument2>

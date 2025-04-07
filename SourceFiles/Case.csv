@@ -1,0 +1,2 @@
+﻿Id,IsDeleted,CaseNumber,ContactId,AccountId,ParentId,SuppliedEmail,Type,Status,Reason,Origin,Subject,Priority,Description,IsClosed,ClosedDate,IsEscalated,OwnerId,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,ContactPhone,ContactMobile,ContactEmail,ContactFax,LastViewedDate,LastReferencedDate,Case_Status__c
+1,FALSE,AST0001,,0012900000bbOOxAAM,,sadia.saeed@astera.com,01230000000KRc0AAG,,,Pakistan    ,,,,,,,,,,,,,,,,,,,

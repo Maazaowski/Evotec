@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UdDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.1.0.231">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\astera.com\share\general\Sadia Sayeed\FieldVerification\UI_UX_Cases\ReportModel2.Rmd</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>2022-11-21T04:03:45.1747255+05:00</UpdateDtTm>
+  <CatalogInfo>
+    <Name>ReportModel2</Name>
+    <PublishToCatalog>false</PublishToCatalog>
+  </CatalogInfo>
+  <_CurrentField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="formula" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Difference">
+    <FieldRoles>Input Output</FieldRoles>
+    <RegressionType>None</RegressionType>
+    <IsInput>true</IsInput>
+    <IsOutput>true</IsOutput>
+    <IsVariable>false</IsVariable>
+    <Expression>RemoveChars(NegativeDifference,'(,$,)')</Expression>
+    <UniqueId>fe75d736-29e8-4494-a04e-aa622d353fe5</UniqueId>
+    <HasCollections>false</HasCollections>
+    <CompositeType>None</CompositeType>
+    <CompositeComponentType>None</CompositeComponentType>
+    <LineCount>1</LineCount>
+    <PositionType>Specified</PositionType>
+    <CaseSensitiveMatch>true</CaseSensitiveMatch>
+    <RegularExpressionMatch>false</RegularExpressionMatch>
+    <FieldLabelPosition>None</FieldLabelPosition>
+    <StartLine>0</StartLine>
+    <StartColumn>0</StartColumn>
+    <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+    <LengthType>Specified</LengthType>
+    <ValueIfNull>None</ValueIfNull>
+    <RemoveTextQualifier>false</RemoveTextQualifier>
+    <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+    <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+    <SpecificCharactersToBeRemoved />
+    <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+    <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+    <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+    <RemovePunctuations>false</RemovePunctuations>
+    <IsCalculated>true</IsCalculated>
+    <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+    <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+  </_CurrentField>
+  <ExportTables />
+  <Options>
+    <ContentType>Report</ContentType>
+    <FontSize>0</FontSize>
+    <_RecordDelimiter>&#xD;
+</_RecordDelimiter>
+    <AddSpaceBetweenExcelColumns>5</AddSpaceBetweenExcelColumns>
+    <NumberOfBlankLinesForExcelEof>5</NumberOfBlankLinesForExcelEof>
+    <QuoteChar>34</QuoteChar>
+    <DateFormats />
+    <PatternsCaseSensitive>true</PatternsCaseSensitive>
+    <Looping>false</Looping>
+    <SourceDirectoryForLooping>
+      <Path />
+      <UncPath />
+    </SourceDirectoryForLooping>
+    <SampleFilePath>
+      <Path>\\astera.com\share\general\Sadia Sayeed\FieldVerification\SourceFiles\Treasurer To Auditor Balancing Report - Summary.pdf</Path>
+      <UncPath>\\astera.com\share\general\Sadia Sayeed\FieldVerification\SourceFiles\Treasurer To Auditor Balancing Report - Summary.pdf</UncPath>
+    </SampleFilePath>
+    <SampleLineCount>5000</SampleLineCount>
+    <OutliningType>ExpandAll</OutliningType>
+    <FieldDelimiter>,</FieldDelimiter>
+    <RecordDelimiter>&#xD;
+</RecordDelimiter>
+    <RemoveBlankLines>false</RemoveBlankLines>
+    <BlankLinesForEof>5</BlankLinesForEof>
+    <TabSize>8</TabSize>
+    <PdfOptions>
+      <NeedsOCR>false</NeedsOCR>
+      <ShowOCRPanel>false</ShowOCRPanel>
+      <IsNewlyLoaded>false</IsNewlyLoaded>
+      <ConvertingOCR>false</ConvertingOCR>
+      <OCRScaleFactor>1</OCRScaleFactor>
+      <MinPPI>150</MinPPI>
+      <RefreshOnNextRun>false</RefreshOnNextRun>
+      <OCRResolution>2</OCRResolution>
+      <PreviousReportPath>\\astera.com\share\general\Sadia Sayeed\FieldVerification\SourceFiles\Treasurer To Auditor Balancing Report - Summary.pdf</PreviousReportPath>
+      <ScalingFactor>0</ScalingFactor>
+      <MaintainOriginalLayout>true</MaintainOriginalLayout>
+      <StartPage>0</StartPage>
+      <EndPage>0</EndPage>
+      <filterPages>false</filterPages>
+      <IsValidFilterString>false</IsValidFilterString>
+      <OwnerPassword />
+      <UserPassword />
+    </PdfOptions>
+    <ReportStyle>Default</ReportStyle>
+    <MaintainLocale>false</MaintainLocale>
+    <Culture>en-PK</Culture>
+    <CalculateFields>false</CalculateFields>
+    <checkBoxUseOcr>false</checkBoxUseOcr>
+  </Options>
+  <ReportLayout IsHierarchicalFile="false">
+    <IsFolder>false</IsFolder>
+    <Id>0</Id>
+    <IsNewRecord>false</IsNewRecord>
+    <Name>Record</Name>
+    <Description />
+    <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+    <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+    <IsSharedLayout>false</IsSharedLayout>
+    <LayoutBuildingOptions>
+      <RecordType>ReportMiningDefinition</RecordType>
+      <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+      <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+    </LayoutBuildingOptions>
+    <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+    <Fields />
+    <Children />
+    <Referenced>
+      <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+        <IsFolder>false</IsFolder>
+        <Id>0</Id>
+        <IsNewRecord>false</IsNewRecord>
+        <Name>Data</Name>
+        <Description />
+        <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+        <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+        <IsSharedLayout>false</IsSharedLayout>
+        <LayoutBuildingOptions>
+          <RecordType>ReportMiningDefinition</RecordType>
+          <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+          <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+        </LayoutBuildingOptions>
+        <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+        <Fields>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="8" DataType="Date" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CheckFromDate">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>66dc7702-bda6-4f74-9772-14ba6f021534</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>13</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="String" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CheckToDate">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>b097bc91-e7d8-4d19-83a8-3946ed2f74ab</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>25</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="Integer" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CheckFromNumbers">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>e45ee100-c0e6-4670-8e70-7740f3c34133</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>1</StartLine>
+            <StartColumn>15</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="String" IsPrimaryKey="false" Header="FIELD_4" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CheckToNumbers">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>312c6996-5388-44e7-86eb-378ed2e3dbef</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>1</StartLine>
+            <StartColumn>29</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Integer" IsPrimaryKey="false" Header="FIELD_5" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FundsFrom">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>f49faec5-0398-4217-885f-24c0d2fc36b8</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>93</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="910" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Integer" IsPrimaryKey="false" Header="FIELD_6" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FundsTo">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>f944baf5-e88c-4ad1-b305-26d2f6ba5237</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>100</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="String" IsPrimaryKey="false" Header="FIELD_7" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="IncludeUprintedChecks">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>20380bea-cb06-42c2-b84e-aa618701129d</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>1</StartLine>
+            <StartColumn>100</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+            <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+            <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+          </ReportLayoutField>
+        </Fields>
+        <Children>
+          <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+            <IsFolder>false</IsFolder>
+            <Id>0</Id>
+            <IsNewRecord>false</IsNewRecord>
+            <Name>Data</Name>
+            <Description />
+            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+            <IsSharedLayout>false</IsSharedLayout>
+            <LayoutBuildingOptions>
+              <RecordType>ReportMiningDefinition</RecordType>
+              <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+              <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+            </LayoutBuildingOptions>
+            <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+            <Fields>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="26" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Tresurer">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>b1865773-5840-4837-b503-b929a5409693</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>0</StartLine>
+                <StartColumn>11</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="26" DataType="String" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Auditor">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>680b9a0c-60a5-488e-ae63-19f595c48e62</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>1</StartLine>
+                <StartColumn>9</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="13" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="12" DataType="String" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Amount1">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>c3cee89c-cdff-4445-a208-6000c01dd588</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>0</StartLine>
+                <StartColumn>91</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="13" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="12" DataType="String" IsPrimaryKey="false" Header="FIELD_4" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Amount2">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>fe430666-ff50-4d78-8712-0686b57de55d</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>1</StartLine>
+                <StartColumn>91</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="301958.88" MaxDecimalPlacesInLayoutBuilding="2" Length="10" DataType="String" IsPrimaryKey="false" Header="FIELD_5" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TotalOutstanding">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>4acef1eb-143d-4977-9885-262f3bf3cf80</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>2</StartLine>
+                <StartColumn>93</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="15" DataType="String" IsPrimaryKey="false" Header="FIELD_6" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DifferenceString">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <UniqueId>ac144e56-8da2-4c5f-aded-35090d2a317f</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>4</StartLine>
+                <StartColumn>89</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>false</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="formula" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Difference">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <Expression>RemoveChars(NegativeDifference,'(,$,)')</Expression>
+                <UniqueId>fe75d736-29e8-4494-a04e-aa622d353fe5</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>0</StartLine>
+                <StartColumn>0</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>true</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="formula" Index="7" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="NegativeDifference">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <Expression>If(Contains('(',DifferenceString),ReplaceAll(DifferenceString,'(','-'),DifferenceString)</Expression>
+                <UniqueId>b4cf534c-b7e2-4fa1-9113-2ff9d194f293</UniqueId>
+                <HasCollections>false</HasCollections>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                <RegularExpressionMatch>false</RegularExpressionMatch>
+                <FieldLabelPosition>None</FieldLabelPosition>
+                <StartLine>0</StartLine>
+                <StartColumn>0</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <SpecificCharactersToBeRemoved />
+                <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                <RemovePunctuations>false</RemovePunctuations>
+                <IsCalculated>true</IsCalculated>
+                <IgnoreFieldVerificationLeft>false</IgnoreFieldVerificationLeft>
+                <IgnoreFieldVerificationRight>false</IgnoreFieldVerificationRight>
+              </ReportLayoutField>
+            </Fields>
+            <Children />
+            <Referenced />
+            <ValidationRules />
+            <autoLayoutFields>
+              <RegionContainsHeader>true</RegionContainsHeader>
+              <HeaderSpanOver>1</HeaderSpanOver>
+              <IsAutoGenerated>false</IsAutoGenerated>
+              <IsAutoCreateField>false</IsAutoCreateField>
+              <NoOfSelectedLines>1</NoOfSelectedLines>
+              <RegionNumber>0</RegionNumber>
+              <StartingLineNumber>0</StartingLineNumber>
+              <PreservedFieldNameIndexes />
+              <PreservedFieldNames />
+            </autoLayoutFields>
+            <EndType>AnotherRegionBegins</EndType>
+            <RegionFormat>Unknown</RegionFormat>
+            <Patterns>
+              <LinePatternBase xsi:type="LinePattern">
+                <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                <ApplyToLine>0</ApplyToLine>
+                <IsRegEx>false</IsRegEx>
+                <FloatFields>true</FloatFields>
+                <IsFloatingPattern>false</IsFloatingPattern>
+                <LineLength>0</LineLength>
+                <PatternText>Treasurer:                                                                                                    </PatternText>
+              </LinePatternBase>
+            </Patterns>
+            <Pattern xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText>Treasurer:                                                                                                    </PatternText>
+            </Pattern>
+            <ContentType>Report</ContentType>
+            <LineCount>1</LineCount>
+            <RegionType>Data</RegionType>
+            <IsContainer>false</IsContainer>
+            <IsOverlappedContainer>false</IsOverlappedContainer>
+            <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+            <patternRegionEnd />
+            <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+            <IsMultiColumnRegion>false</IsMultiColumnRegion>
+            <RegionColumnStarts />
+          </BaseLayout>
+        </Children>
+        <Referenced />
+        <ValidationRules />
+        <autoLayoutFields>
+          <RegionContainsHeader>true</RegionContainsHeader>
+          <HeaderSpanOver>1</HeaderSpanOver>
+          <IsAutoGenerated>false</IsAutoGenerated>
+          <IsAutoCreateField>false</IsAutoCreateField>
+          <NoOfSelectedLines>1</NoOfSelectedLines>
+          <RegionNumber>0</RegionNumber>
+          <StartingLineNumber>0</StartingLineNumber>
+          <PreservedFieldNameIndexes />
+          <PreservedFieldNames />
+        </autoLayoutFields>
+        <EndType>LineCount</EndType>
+        <RegionFormat>Unknown</RegionFormat>
+        <Patterns>
+          <LinePatternBase xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText>Check Dates:                                                                                                  </PatternText>
+          </LinePatternBase>
+        </Patterns>
+        <Pattern xsi:type="LinePattern">
+          <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+          <ApplyToLine>0</ApplyToLine>
+          <IsRegEx>false</IsRegEx>
+          <FloatFields>true</FloatFields>
+          <IsFloatingPattern>false</IsFloatingPattern>
+          <LineLength>0</LineLength>
+          <PatternText>Check Dates:                                                                                                  </PatternText>
+        </Pattern>
+        <ContentType>Report</ContentType>
+        <LineCount>2</LineCount>
+        <RegionType>Data</RegionType>
+        <IsContainer>false</IsContainer>
+        <IsOverlappedContainer>false</IsOverlappedContainer>
+        <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+        <patternRegionEnd />
+        <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+        <IsMultiColumnRegion>false</IsMultiColumnRegion>
+        <RegionColumnStarts />
+      </BaseLayout>
+    </Referenced>
+    <ValidationRules />
+    <autoLayoutFields>
+      <RegionContainsHeader>true</RegionContainsHeader>
+      <HeaderSpanOver>1</HeaderSpanOver>
+      <IsAutoGenerated>false</IsAutoGenerated>
+      <IsAutoCreateField>false</IsAutoCreateField>
+      <NoOfSelectedLines>1</NoOfSelectedLines>
+      <RegionNumber>0</RegionNumber>
+      <StartingLineNumber>0</StartingLineNumber>
+      <PreservedFieldNameIndexes />
+      <PreservedFieldNames />
+    </autoLayoutFields>
+    <EndType>LineCount</EndType>
+    <RegionFormat>Unknown</RegionFormat>
+    <Patterns>
+      <LinePatternBase xsi:type="LinePattern">
+        <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+        <ApplyToLine>0</ApplyToLine>
+        <IsRegEx>false</IsRegEx>
+        <FloatFields>true</FloatFields>
+        <IsFloatingPattern>false</IsFloatingPattern>
+        <LineLength>0</LineLength>
+        <PatternText />
+      </LinePatternBase>
+    </Patterns>
+    <Pattern xsi:type="LinePattern">
+      <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+      <ApplyToLine>0</ApplyToLine>
+      <IsRegEx>false</IsRegEx>
+      <FloatFields>true</FloatFields>
+      <IsFloatingPattern>false</IsFloatingPattern>
+      <LineLength>0</LineLength>
+      <PatternText />
+    </Pattern>
+    <ContentType>Report</ContentType>
+    <LineCount>1</LineCount>
+    <RegionType>Top</RegionType>
+    <IsContainer>false</IsContainer>
+    <IsOverlappedContainer>false</IsOverlappedContainer>
+    <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+    <patternRegionEnd />
+    <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+    <IsMultiColumnRegion>false</IsMultiColumnRegion>
+    <RegionColumnStarts />
+  </ReportLayout>
+  <AGLRunningInnerMethod>false</AGLRunningInnerMethod>
+  <MaxLineLength>110</MaxLineLength>
+  <SampleFilePath>
+    <Path>\\astera.com\share\general\Sadia Sayeed\FieldVerification\SourceFiles\Treasurer To Auditor Balancing Report - Summary.pdf</Path>
+    <UncPath>\\astera.com\share\general\Sadia Sayeed\FieldVerification\SourceFiles\Treasurer To Auditor Balancing Report - Summary.pdf</UncPath>
+  </SampleFilePath>
+</UdDocument>

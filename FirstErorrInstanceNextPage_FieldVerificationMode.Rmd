@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UdDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="9.0.0.1295">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name />
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>2022-09-22T11:56:53.9764481+05:00</UpdateDtTm>
+  <CatalogInfo>
+    <Name />
+    <PublishToCatalog>false</PublishToCatalog>
+  </CatalogInfo>
+  <ExportTables>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>025dd151-8de5-4392-a212-5ff9cb7493a3</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>025dd151-8de5-4392-a212-5ff9cb7493a3</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Record_Export</Name>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_Export</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_Export</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_1</SourceFieldPath>
+              <UniqueId>682e0324-b167-4292-86d2-87aac6b5fb79</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="999.02" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_2</SourceFieldPath>
+              <UniqueId>05bd74ba-c984-4e43-b201-f9b13bf3827c</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="97.94" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_3">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_3</SourceFieldPath>
+              <UniqueId>57a2a1a4-a8cb-487f-9c3f-6f5d9fc8a1b4</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dcd.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dcd.xls</Path>
+              <UncPath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dcd.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dcd.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.Data.FIELD_1</string>
+          <string>Record.Data.FIELD_2</string>
+          <string>Record.Data.FIELD_3</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>6b619a58-07a4-446a-bdc2-0e31c358fc81</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>6b619a58-07a4-446a-bdc2-0e31c358fc81</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Data_Export</Name>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Data_Export</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Data_Export</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_1</SourceFieldPath>
+              <UniqueId>682e0324-b167-4292-86d2-87aac6b5fb79</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="999.02" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_2</SourceFieldPath>
+              <UniqueId>05bd74ba-c984-4e43-b201-f9b13bf3827c</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="97.94" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_3">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_3</SourceFieldPath>
+              <UniqueId>57a2a1a4-a8cb-487f-9c3f-6f5d9fc8a1b4</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\sasd.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\sasd.xls</Path>
+              <UncPath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\sasd.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\sasd.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.Data.FIELD_1</string>
+          <string>Record.Data.FIELD_2</string>
+          <string>Record.Data.FIELD_3</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>16ebf906-1f0a-429e-9656-41236e439ef1</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>16ebf906-1f0a-429e-9656-41236e439ef1</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Data_1</Name>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Data_1</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Data_1</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_1</SourceFieldPath>
+              <UniqueId>682e0324-b167-4292-86d2-87aac6b5fb79</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="999.02" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_2</SourceFieldPath>
+              <UniqueId>05bd74ba-c984-4e43-b201-f9b13bf3827c</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="97.94" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_3">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.Data.FIELD_3</SourceFieldPath>
+              <UniqueId>57a2a1a4-a8cb-487f-9c3f-6f5d9fc8a1b4</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dummy.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dummy.xls</Path>
+              <UncPath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dummy.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <WriteToUniqueFiles>false</WriteToUniqueFiles>
+        <FilePath>\\astera.com\share\general\Sadia Sayeed\MongoDB\MongoDB_Destination\SourceFolder\dummy.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.Data.FIELD_1</string>
+          <string>Record.Data.FIELD_2</string>
+          <string>Record.Data.FIELD_3</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+  </ExportTables>
+  <Options>
+    <ContentType>Report</ContentType>
+    <FontSize>0</FontSize>
+    <_RecordDelimiter>&#xD;
+</_RecordDelimiter>
+    <AddSpaceBetweenExcelColumns>5</AddSpaceBetweenExcelColumns>
+    <NumberOfBlankLinesForExcelEof>5</NumberOfBlankLinesForExcelEof>
+    <QuoteChar>34</QuoteChar>
+    <DateFormats />
+    <PatternsCaseSensitive>true</PatternsCaseSensitive>
+    <Looping>false</Looping>
+    <SourceDirectoryForLooping>
+      <Path />
+      <UncPath />
+    </SourceDirectoryForLooping>
+    <SampleFilePath>
+      <Path>\\astera.com\share\general\Humera Yakub\AGLv2.0_TrainingSet\SingleLineHeader\20_NoBoundaryMissingValuesinMultipleColumnsv2.0.pdf</Path>
+      <UncPath>\\astera.com\share\general\Humera Yakub\AGLv2.0_TrainingSet\SingleLineHeader\20_NoBoundaryMissingValuesinMultipleColumnsv2.0.pdf</UncPath>
+    </SampleFilePath>
+    <SampleLineCount>5000</SampleLineCount>
+    <OutliningType>ExpandAll</OutliningType>
+    <FieldDelimiter>,</FieldDelimiter>
+    <RecordDelimiter>&#xD;
+</RecordDelimiter>
+    <RemoveBlankLines>false</RemoveBlankLines>
+    <BlankLinesForEof>5</BlankLinesForEof>
+    <TabSize>8</TabSize>
+    <PdfOptions>
+      <NeedsOCR>false</NeedsOCR>
+      <ConvertingOCR>false</ConvertingOCR>
+      <OCRScaleFactor>1</OCRScaleFactor>
+      <MinPPI>150</MinPPI>
+      <RefreshOnNextRun>false</RefreshOnNextRun>
+      <OCRResolution>2</OCRResolution>
+      <PreviousReportPath>\\astera.com\share\general\Humera Yakub\AGLv2.0_TrainingSet\SingleLineHeader\20_NoBoundaryMissingValuesinMultipleColumnsv2.0.pdf</PreviousReportPath>
+      <ScalingFactor>0</ScalingFactor>
+      <MaintainOriginalLayout>true</MaintainOriginalLayout>
+      <StartPage>0</StartPage>
+      <EndPage>0</EndPage>
+      <filterPages>false</filterPages>
+      <OwnerPassword />
+      <UserPassword />
+    </PdfOptions>
+    <ReportStyle>Default</ReportStyle>
+    <MaintainLocale>false</MaintainLocale>
+    <Culture>en-PK</Culture>
+    <CalculateFields>false</CalculateFields>
+    <checkBoxUseOcr>false</checkBoxUseOcr>
+  </Options>
+  <ReportLayout IsHierarchicalFile="false">
+    <IsFolder>false</IsFolder>
+    <Id>0</Id>
+    <IsNewRecord>false</IsNewRecord>
+    <Name>Record</Name>
+    <Description />
+    <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+    <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+    <IsSharedLayout>false</IsSharedLayout>
+    <LayoutBuildingOptions>
+      <RecordType>ReportMiningDefinition</RecordType>
+      <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+      <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+    </LayoutBuildingOptions>
+    <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+    <Fields />
+    <Children />
+    <Referenced>
+      <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+        <IsFolder>false</IsFolder>
+        <Id>0</Id>
+        <IsNewRecord>false</IsNewRecord>
+        <Name>Data</Name>
+        <Description />
+        <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+        <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+        <IsSharedLayout>false</IsSharedLayout>
+        <LayoutBuildingOptions>
+          <RecordType>ReportMiningDefinition</RecordType>
+          <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+          <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+        </LayoutBuildingOptions>
+        <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+        <Fields>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_1">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>682e0324-b167-4292-86d2-87aac6b5fb79</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>29</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="999.02" MaxDecimalPlacesInLayoutBuilding="2" Length="8" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_2">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>05bd74ba-c984-4e43-b201-f9b13bf3827c</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>53</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="97.94" MaxDecimalPlacesInLayoutBuilding="2" Length="8" DataType="Real" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FIELD_3">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <UniqueId>57a2a1a4-a8cb-487f-9c3f-6f5d9fc8a1b4</UniqueId>
+            <HasCollections>false</HasCollections>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>Specified</PositionType>
+            <CaseSensitiveMatch>true</CaseSensitiveMatch>
+            <RegularExpressionMatch>false</RegularExpressionMatch>
+            <FieldLabelPosition>None</FieldLabelPosition>
+            <StartLine>0</StartLine>
+            <StartColumn>66</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <SpecificCharactersToBeRemoved />
+            <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+            <RemovePunctuations>false</RemovePunctuations>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+        </Fields>
+        <Children />
+        <Referenced />
+        <ValidationRules />
+        <autoLayoutFields>
+          <RegionContainsHeader>true</RegionContainsHeader>
+          <HeaderSpanOver>1</HeaderSpanOver>
+          <IsAutoGenerated>false</IsAutoGenerated>
+          <IsAutoCreateField>false</IsAutoCreateField>
+          <NoOfSelectedLines>1</NoOfSelectedLines>
+          <RegionNumber>0</RegionNumber>
+          <StartingLineNumber>0</StartingLineNumber>
+          <PreservedFieldNameIndexes />
+          <PreservedFieldNames />
+        </autoLayoutFields>
+        <EndType>LineCount</EndType>
+        <RegionFormat>Unknown</RegionFormat>
+        <Patterns>
+          <LinePatternBase xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText> Ñ                                                                                                                                             </PatternText>
+          </LinePatternBase>
+        </Patterns>
+        <Pattern xsi:type="LinePattern">
+          <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+          <ApplyToLine>0</ApplyToLine>
+          <IsRegEx>false</IsRegEx>
+          <FloatFields>true</FloatFields>
+          <IsFloatingPattern>false</IsFloatingPattern>
+          <LineLength>0</LineLength>
+          <PatternText> Ñ                                                                                                                                             </PatternText>
+        </Pattern>
+        <ContentType>Report</ContentType>
+        <LineCount>1</LineCount>
+        <RegionType>Data</RegionType>
+        <IsContainer>false</IsContainer>
+        <IsOverlappedContainer>false</IsOverlappedContainer>
+        <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+        <patternRegionEnd />
+        <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+        <IsMultiColumnRegion>false</IsMultiColumnRegion>
+        <RegionColumnStarts />
+      </BaseLayout>
+    </Referenced>
+    <ValidationRules />
+    <autoLayoutFields>
+      <RegionContainsHeader>true</RegionContainsHeader>
+      <HeaderSpanOver>1</HeaderSpanOver>
+      <IsAutoGenerated>false</IsAutoGenerated>
+      <IsAutoCreateField>false</IsAutoCreateField>
+      <NoOfSelectedLines>1</NoOfSelectedLines>
+      <RegionNumber>0</RegionNumber>
+      <StartingLineNumber>0</StartingLineNumber>
+      <PreservedFieldNameIndexes />
+      <PreservedFieldNames />
+    </autoLayoutFields>
+    <EndType>LineCount</EndType>
+    <RegionFormat>Unknown</RegionFormat>
+    <Patterns>
+      <LinePatternBase xsi:type="LinePattern">
+        <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+        <ApplyToLine>0</ApplyToLine>
+        <IsRegEx>false</IsRegEx>
+        <FloatFields>true</FloatFields>
+        <IsFloatingPattern>false</IsFloatingPattern>
+        <LineLength>0</LineLength>
+        <PatternText />
+      </LinePatternBase>
+    </Patterns>
+    <Pattern xsi:type="LinePattern">
+      <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+      <ApplyToLine>0</ApplyToLine>
+      <IsRegEx>false</IsRegEx>
+      <FloatFields>true</FloatFields>
+      <IsFloatingPattern>false</IsFloatingPattern>
+      <LineLength>0</LineLength>
+      <PatternText />
+    </Pattern>
+    <ContentType>Report</ContentType>
+    <LineCount>1</LineCount>
+    <RegionType>Top</RegionType>
+    <IsContainer>false</IsContainer>
+    <IsOverlappedContainer>false</IsOverlappedContainer>
+    <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+    <patternRegionEnd />
+    <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+    <IsMultiColumnRegion>false</IsMultiColumnRegion>
+    <RegionColumnStarts />
+  </ReportLayout>
+  <AGLRunningInnerMethod>false</AGLRunningInnerMethod>
+  <MaxLineLength>143</MaxLineLength>
+  <SampleFilePath>
+    <Path>\\astera.com\share\general\Humera Yakub\AGLv2.0_TrainingSet\SingleLineHeader\20_NoBoundaryMissingValuesinMultipleColumnsv2.0.pdf</Path>
+    <UncPath>\\astera.com\share\general\Humera Yakub\AGLv2.0_TrainingSet\SingleLineHeader\20_NoBoundaryMissingValuesinMultipleColumnsv2.0.pdf</UncPath>
+  </SampleFilePath>
+</UdDocument>

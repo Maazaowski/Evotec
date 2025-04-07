@@ -1,0 +1,2523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UdDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Users\minhaj.haider\Downloads\CAFS SDR Summary (2) Report Model.Rmd</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <ExportTables>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_Export</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_Export</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_Export</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="1" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="2" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="3" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="4" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="5" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="ServiceDate" Index="6" AllowsNull="true" Name="ServiceDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.ServiceDate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="22" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="7" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="8" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Units" Index="9" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Fee" Index="10" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Total" Index="11" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="12" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="25" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="13" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="14" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="15" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="16" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.DateData.LineData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.DateData.ServiceDate</string>
+          <string>Record.ProgramData.DateData.LineData.Description</string>
+          <string>Record.ProgramData.DateData.LineData.Rate</string>
+          <string>Record.ProgramData.DateData.LineData.Units</string>
+          <string>Record.ProgramData.DateData.LineData.Fee</string>
+          <string>Record.ProgramData.DateData.LineData.Total</string>
+          <string>Record.ProgramData.DateData.LineData.LineData2.Description</string>
+          <string>Record.ProgramData.DateData.LineData.LineData2.Rate</string>
+          <string>Record.ProgramData.DateData.LineData.LineData2.Units</string>
+          <string>Record.ProgramData.DateData.LineData.LineData2.Fee</string>
+          <string>Record.ProgramData.DateData.LineData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_1</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_1</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_1</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="1" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="2" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="3" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="4" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="5" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_2</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_2</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_2</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="25" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_3</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_3</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_3</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_4</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_4</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_4</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_5</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_5</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_5</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>ProgramData_Export</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>ProgramData_Export</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ProgramData_Export</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>100</Height>
+            <Width>100</Width>
+            <X>0</X>
+            <Y>0</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Record_6</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>Record_6</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record_6</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="ProgramType" Index="0" AllowsNull="true" Name="ProgramType">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ProgramType</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate" Index="1" AllowsNull="true" Name="Rate">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="CommLine" Index="2" AllowsNull="true" Name="CommLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.CommLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Real" IsPrimaryKey="false" Header="ActgLine" Index="3" AllowsNull="true" Name="ActgLine">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ActgLine</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="ParentFee" Index="4" AllowsNull="true" Name="ParentFee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.ParentFee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="Real" IsPrimaryKey="false" Header="LineTotalBilled" Index="5" AllowsNull="true" Name="LineTotalBilled">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineTotalBilled</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description" Index="6" AllowsNull="true" Name="Description">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Rate_1" Index="7" AllowsNull="true" Name="Rate_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units" Index="8" AllowsNull="true" Name="Units">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee" Index="9" AllowsNull="true" Name="Fee">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total" Index="10" AllowsNull="true" Name="Total">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Description_1" Index="11" AllowsNull="true" Name="Description_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Description</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="29" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="5" Length="5" DataType="String" IsPrimaryKey="false" Header="Rate_2" Index="12" AllowsNull="true" Name="Rate_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Rate</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="1" Length="1" DataType="String" IsPrimaryKey="false" Header="Units_1" Index="13" AllowsNull="true" Name="Units_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Units</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Fee_1" Index="14" AllowsNull="true" Name="Fee_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Fee</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField MaxFieldLengthInLayoutBuilding="12" MaxNumericValueInLayoutBuilding="11.35" MaxDecimalPlacesInLayoutBuilding="2" Length="2" DataType="String" IsPrimaryKey="false" Header="Total_1" Index="15" AllowsNull="true" Name="Total_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <SourceFieldPath>Record.ProgramData.LineData2.Total</SourceFieldPath>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</Path>
+              <UncPath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\filesrvr1\users\jlajoie\ReportMiner\cafs2.xls</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths>
+          <string>Record.ProgramData.ProgramType</string>
+          <string>Record.ProgramData.Rate</string>
+          <string>Record.ProgramData.CommLine</string>
+          <string>Record.ProgramData.ActgLine</string>
+          <string>Record.ProgramData.ParentFee</string>
+          <string>Record.ProgramData.LineTotalBilled</string>
+          <string>Record.ProgramData.LineData.Description</string>
+          <string>Record.ProgramData.LineData.Rate</string>
+          <string>Record.ProgramData.LineData.Units</string>
+          <string>Record.ProgramData.LineData.Fee</string>
+          <string>Record.ProgramData.LineData.Total</string>
+          <string>Record.ProgramData.LineData2.Description</string>
+          <string>Record.ProgramData.LineData2.Rate</string>
+          <string>Record.ProgramData.LineData2.Units</string>
+          <string>Record.ProgramData.LineData2.Fee</string>
+          <string>Record.ProgramData.LineData2.Total</string>
+        </SourceFieldPaths>
+        <UsesSourceFieldPaths>true</UsesSourceFieldPaths>
+        <ExportMode>true</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
+  </ExportTables>
+  <OlapReports />
+  <Options>
+    <ContentType>Report</ContentType>
+    <FontSize>0</FontSize>
+    <_RecordDelimiter>
+</_RecordDelimiter>
+    <AddSpaceBetweenExcelColumns>5</AddSpaceBetweenExcelColumns>
+    <NumberOfBlankLinesForExcelEof>5</NumberOfBlankLinesForExcelEof>
+    <QuoteChar>34</QuoteChar>
+    <DateFormats />
+    <PatternsCaseSensitive>true</PatternsCaseSensitive>
+    <Looping>false</Looping>
+    <SourceDirectoryForLooping>
+      <Path />
+      <UncPath />
+    </SourceDirectoryForLooping>
+    <SampleFilePath>
+      <Path>C:\Users\minhaj.haider\Downloads\SDRSummaryReport NOV 2019.pdf</Path>
+      <UncPath>C:\Users\minhaj.haider\Downloads\SDRSummaryReport NOV 2019.pdf</UncPath>
+    </SampleFilePath>
+    <SampleLineCount>5000</SampleLineCount>
+    <FieldDelimiter>,</FieldDelimiter>
+    <RecordDelimiter>
+</RecordDelimiter>
+    <RemoveBlankLines>false</RemoveBlankLines>
+    <BlankLinesForEof>5</BlankLinesForEof>
+    <TabSize>8</TabSize>
+    <PdfOptions>
+      <NeedsOCR>false</NeedsOCR>
+      <OCRScaleFactor>1</OCRScaleFactor>
+      <MinPPI>150</MinPPI>
+      <RefreshOnNextRun>false</RefreshOnNextRun>
+      <ScalingFactor>0</ScalingFactor>
+      <MaintainOriginalLayout>true</MaintainOriginalLayout>
+      <OwnerPassword />
+      <UserPassword />
+    </PdfOptions>
+    <ReportStyle>Default</ReportStyle>
+    <MaintainLocale>false</MaintainLocale>
+    <Culture>en-US</Culture>
+  </Options>
+  <ReportLayout IsHierarchicalFile="false">
+    <IsFolder>false</IsFolder>
+    <Id>0</Id>
+    <IsNewRecord>false</IsNewRecord>
+    <Name>Record</Name>
+    <Description />
+    <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+    <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+    <IsSharedLayout>false</IsSharedLayout>
+    <LayoutBuildingOptions>
+      <RecordType>ReportMiningDefinition</RecordType>
+      <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+      <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+    </LayoutBuildingOptions>
+    <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+    <Fields />
+    <Children />
+    <Referenced>
+      <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+        <IsFolder>false</IsFolder>
+        <Id>0</Id>
+        <IsNewRecord>false</IsNewRecord>
+        <Name>ProgramData</Name>
+        <Description />
+        <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+        <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+        <IsSharedLayout>false</IsSharedLayout>
+        <LayoutBuildingOptions>
+          <RecordType>ReportMiningDefinition</RecordType>
+          <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+          <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+        </LayoutBuildingOptions>
+        <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+        <Fields>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="53" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" Name="ProgramType">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>Program Type:</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>0</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="18" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="22" DataType="String" IsPrimaryKey="false" Header="FIELD_3" Index="1" AllowsNull="true" Name="Rate">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>        Rate</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>62</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Integer" IsPrimaryKey="false" Header="FIELD_4" Index="2" AllowsNull="true" Name="CommLine">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>CommLine</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>91</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="11" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Real" IsPrimaryKey="false" Header="FIELD_5" Index="3" AllowsNull="true" Name="ActgLine">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>ActgLine</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>111</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="15" DataType="Real" IsPrimaryKey="false" Header="FIELD_6" Index="4" AllowsNull="true" Name="ParentFee">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>Parent Fee</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>129</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+          <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="23722.44" MaxDecimalPlacesInLayoutBuilding="2" Length="24" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="5" AllowsNull="true" Name="LineTotalBilled">
+            <FieldRoles>Input Output</FieldRoles>
+            <RegressionType>None</RegressionType>
+            <IsInput>true</IsInput>
+            <IsOutput>true</IsOutput>
+            <IsVariable>false</IsVariable>
+            <CompositeType>None</CompositeType>
+            <CompositeComponentType>None</CompositeComponentType>
+            <LineCount>1</LineCount>
+            <PositionType>StringInPreviousLine</PositionType>
+            <PrecedingString>Line Total Billed</PrecedingString>
+            <StartLine>1</StartLine>
+            <StartColumn>152</StartColumn>
+            <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+            <LengthType>Specified</LengthType>
+            <ValueIfNull>None</ValueIfNull>
+            <RemoveTextQualifier>false</RemoveTextQualifier>
+            <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+            <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+            <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+            <IsCalculated>false</IsCalculated>
+          </ReportLayoutField>
+        </Fields>
+        <Children>
+          <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+            <IsFolder>false</IsFolder>
+            <Id>0</Id>
+            <IsNewRecord>false</IsNewRecord>
+            <Name>LineData</Name>
+            <Description />
+            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+            <IsSharedLayout>false</IsSharedLayout>
+            <LayoutBuildingOptions>
+              <RecordType>ReportMiningDefinition</RecordType>
+              <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+              <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+            </LayoutBuildingOptions>
+            <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+            <Fields>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="23" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="27" DataType="String" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" Name="Description">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>Specified</PositionType>
+                <StartLine>0</StartLine>
+                <StartColumn>0</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <IsCalculated>false</IsCalculated>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="39" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="40" DataType="String" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" Name="Rate">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>FollowsStringInCurrentLine</PositionType>
+                <PrecedingString>Rate:</PrecedingString>
+                <StartLine>0</StartLine>
+                <StartColumn>32</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <IsCalculated>false</IsCalculated>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="14" MaxNumericValueInLayoutBuilding="505" MaxDecimalPlacesInLayoutBuilding="1" Length="14" DataType="String" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" Name="Units">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>FollowsStringInCurrentLine</PositionType>
+                <PrecedingString>Units:</PrecedingString>
+                <StartLine>0</StartLine>
+                <StartColumn>79</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <IsCalculated>false</IsCalculated>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="26" MaxNumericValueInLayoutBuilding="6118.23" MaxDecimalPlacesInLayoutBuilding="2" Length="26" DataType="String" IsPrimaryKey="false" Header="FIELD_4" Index="3" AllowsNull="true" Name="Fee">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>FollowsStringInCurrentLine</PositionType>
+                <PrecedingString>Fee:</PrecedingString>
+                <StartLine>0</StartLine>
+                <StartColumn>98</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <IsCalculated>false</IsCalculated>
+              </ReportLayoutField>
+              <ReportLayoutField MaxFieldLengthInLayoutBuilding="15" MaxNumericValueInLayoutBuilding="15596.77" MaxDecimalPlacesInLayoutBuilding="2" Length="23" DataType="String" IsPrimaryKey="false" Header="FIELD_5" Index="4" AllowsNull="true" Name="Total">
+                <FieldRoles>Input Output</FieldRoles>
+                <RegressionType>None</RegressionType>
+                <IsInput>true</IsInput>
+                <IsOutput>true</IsOutput>
+                <IsVariable>false</IsVariable>
+                <CompositeType>None</CompositeType>
+                <CompositeComponentType>None</CompositeComponentType>
+                <LineCount>1</LineCount>
+                <PositionType>FollowsStringInCurrentLine</PositionType>
+                <PrecedingString>Total:</PrecedingString>
+                <StartLine>0</StartLine>
+                <StartColumn>132</StartColumn>
+                <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                <LengthType>Specified</LengthType>
+                <ValueIfNull>None</ValueIfNull>
+                <RemoveTextQualifier>false</RemoveTextQualifier>
+                <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                <IsCalculated>false</IsCalculated>
+              </ReportLayoutField>
+            </Fields>
+            <Children />
+            <Referenced />
+            <ValidationRules />
+            <EndType>LineCount</EndType>
+            <Patterns>
+              <LinePatternBase xsi:type="LinePattern">
+                <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                <ApplyToLine>0</ApplyToLine>
+                <IsRegEx>false</IsRegEx>
+                <FloatFields>true</FloatFields>
+                <IsFloatingPattern>false</IsFloatingPattern>
+                <LineLength>0</LineLength>
+                <PatternText>                           Rate:                                                                                                                                                 </PatternText>
+              </LinePatternBase>
+              <LinePatternBase xsi:type="LinePattern">
+                <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                <ApplyToLine>0</ApplyToLine>
+                <IsRegEx>false</IsRegEx>
+                <FloatFields>true</FloatFields>
+                <IsFloatingPattern>false</IsFloatingPattern>
+                <LineLength>0</LineLength>
+                <PatternText>                            Rate:                                                                                                                                                </PatternText>
+              </LinePatternBase>
+            </Patterns>
+            <Pattern xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText>                           Rate:                                                                                                                                                 </PatternText>
+            </Pattern>
+            <ContentType>Report</ContentType>
+            <LineCount>1</LineCount>
+            <RegionType>Data</RegionType>
+            <IsContainer>false</IsContainer>
+            <IsOverlappedContainer>false</IsOverlappedContainer>
+            <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+            <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+            <IsMultiColumnRegion>false</IsMultiColumnRegion>
+            <RegionColumnStarts />
+          </BaseLayout>
+        </Children>
+        <Referenced />
+        <ValidationRules />
+        <EndType>LineCount</EndType>
+        <Patterns>
+          <LinePatternBase xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText>Program Type:                                                                                                                                                                    </PatternText>
+          </LinePatternBase>
+        </Patterns>
+        <Pattern xsi:type="LinePattern">
+          <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+          <ApplyToLine>0</ApplyToLine>
+          <IsRegEx>false</IsRegEx>
+          <FloatFields>true</FloatFields>
+          <IsFloatingPattern>false</IsFloatingPattern>
+          <LineLength>0</LineLength>
+          <PatternText>Program Type:                                                                                                                                                                    </PatternText>
+        </Pattern>
+        <ContentType>Report</ContentType>
+        <LineCount>2</LineCount>
+        <RegionType>Data</RegionType>
+        <IsContainer>false</IsContainer>
+        <IsOverlappedContainer>false</IsOverlappedContainer>
+        <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+        <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+        <IsMultiColumnRegion>false</IsMultiColumnRegion>
+        <RegionColumnStarts />
+      </BaseLayout>
+    </Referenced>
+    <ValidationRules />
+    <EndType>LineCount</EndType>
+    <Patterns>
+      <LinePatternBase xsi:type="LinePattern">
+        <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+        <ApplyToLine>0</ApplyToLine>
+        <IsRegEx>false</IsRegEx>
+        <FloatFields>true</FloatFields>
+        <IsFloatingPattern>false</IsFloatingPattern>
+        <LineLength>0</LineLength>
+        <PatternText />
+      </LinePatternBase>
+    </Patterns>
+    <Pattern xsi:type="LinePattern">
+      <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+      <ApplyToLine>0</ApplyToLine>
+      <IsRegEx>false</IsRegEx>
+      <FloatFields>true</FloatFields>
+      <IsFloatingPattern>false</IsFloatingPattern>
+      <LineLength>0</LineLength>
+      <PatternText />
+    </Pattern>
+    <ContentType>Report</ContentType>
+    <LineCount>1</LineCount>
+    <RegionType>Top</RegionType>
+    <IsContainer>false</IsContainer>
+    <IsOverlappedContainer>false</IsOverlappedContainer>
+    <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+    <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+    <IsMultiColumnRegion>false</IsMultiColumnRegion>
+    <RegionColumnStarts />
+  </ReportLayout>
+  <MaxLineLength>177</MaxLineLength>
+  <SampleFilePath>
+    <Path>C:\Users\minhaj.haider\Downloads\SDRSummaryReport NOV 2019.pdf</Path>
+    <UncPath>C:\Users\minhaj.haider\Downloads\SDRSummaryReport NOV 2019.pdf</UncPath>
+  </SampleFilePath>
+</UdDocument>

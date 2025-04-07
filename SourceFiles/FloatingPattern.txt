@@ -1,0 +1,49 @@
+02/01/09                          NEW FURTINURE MART                                PAGE 01  
+00:00:00                            ORDERS REPORT                               
+	                        FROM 01/01/09 TO 01/31/09                              
+                                                                                                                                                                    
+                             ACCOUNT: NORTH RIDGE FURNITURES                                                                                                                                          
+                             ACCOUNT ID: 123456                                                                                                                                               
+                             CONTACT PERSON: John Doe                                                           
+                                                                                  
+                                                                                  
+ITEM        QUANTITY  DESCRIPTION                              ITEM-CODE      PRICE    TOTAL
+                                                                                  
+              ORDER ID:  909090    SHIP DATE: 01/02/09                        
+                                                                                  
+OFFICE CHAIRS         2  Black, leather, reclining                BLK-65123      98.99   197.98  
+                   5  Brown, Suede, reclining                  BRN-65509      89.00   445.00  
+                      8  Beige, Cloth, straight-back              BCO-33884      49.99   399.92  
+                   
+                                                                                  
+                  ORDER ID:  909091    SHIP DATE: 01/15/09                        
+                                                                                  
+RUGS                  5  Centerpiece, black                       CBR-45633     199.99   999.95  
+                                                                                  
+LSEAT              2  Brown, Suede                             BLR-44110     299.00   598.00  
+                                                                                  
+SOFA                  5  Black, leather                           BLS-41020     495.00  2475.00  
+--------------------------------------------------------------------------------------------
+
+02/01/09                         NEW FURTINURE MART                                  PAGE 02  
+06:00:00                           ORDERS REPORT                               
+	                        FROM 01/01/09 TO 01/31/09                                                                                                                
+                                                                                  
+                             ACCOUNT: METRO FURNITURES                                                                                                                                          
+                             ACCOUNT ID: 123457                                                                                                                                               
+                             CONTACT PERSON: Jane Doe                                                            
+                                                                                  
+                                                                                  
+ITEM        QUANTITY  DESCRIPTION                              ITEM-CODE      PRICE    TOTAL
+                                                                                  
+                        ORDER ID:  909092    SHIP DATE: 01/06/09                        
+                                                                                  
+SECT-SOFA             10  Black, leather                          BLK-75123     599.99  5999.90  
+                   5  Brown, Suede                             BRN-75509     499.00  2495.00                   
+                                                                                  
+              ORDER ID:  909093    SHIP DATE: 01/25/09                        
+                                                                                  
+SOFA                  5  Beige, Cloth                             CBR-75633     199.99   999.95                                                                                    
+                   2  Brown, Suede                             BLR-74110     299.00   598.00                                                                                    
+                      5  Black, leather                           BLS-71020     495.00  2475.00  
+--------------------------------------------------------------------------------------------
